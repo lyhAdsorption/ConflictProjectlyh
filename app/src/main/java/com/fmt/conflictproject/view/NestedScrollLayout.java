@@ -16,6 +16,7 @@ public class NestedScrollLayout extends NestedScrollView {
     ViewGroup mHeadView;//顶部控件
     ViewGroup mContentView;//内容控件
     int mVelocityY;//惯性滚动速度
+
     FlingHelper mFlingHelper;//处理惯性滑动速度与距离的转化
     int mConsumedY;//记录自身已经滚动的距离
 
